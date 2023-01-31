@@ -98,3 +98,33 @@ mark {
 h4 {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
+
+/* ------------------------------------------------- Contact Section */
+section#contact {
+    background-image: url(../images/b-img.png);
+    background-size: cover;
+}
+
+.btn-primary.disabled {
+    background-color: rgba(17, 35, 45, 0.488);
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary.disabled:hover {
+    background-color: rgb(17, 35, 45);
+}
+
+section#contact form#contactForm .form-group input.form-control {
+    background-color: rgba(17, 35, 45, 0.488);
+    color: #fff;
+}
+
+section#contact form#contactForm .form-group-textarea textarea {
+    background-color: rgba(17, 35, 45, 0.488);
+    color: #fff;
+}
+
+section#contact form#contactForm .form-control:focus {
+    border-color: rgb(17, 35, 45);
+}
