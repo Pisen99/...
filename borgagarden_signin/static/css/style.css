@@ -6,6 +6,7 @@ font-family: 'Saira Semi Condensed', sans-serif;
 /* ------------------------------------------------- Body */
 body {
     font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: rgb(188,202,214);
 }
 
 /* ------------------------------------------------- Logo & menu */
@@ -142,4 +143,9 @@ a {
 
 a:hover {
     color: rgb(17, 35, 45);
+}
+
+.box {
+    border-left: 2px solid rgb(29,61,77);
+    border-right: 2px solid rgb(29,61,77);
 }
