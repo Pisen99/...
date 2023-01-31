@@ -128,7 +128,18 @@ section#contact form#contactForm .form-group-textarea textarea {
 section#contact form#contactForm .form-control:focus {
     border-color: rgb(17, 35, 45);
 }
+
 /* Changing input autofill to be transparent */
 input:-webkit-autofill, input:-webkit-autofill:focus {
     transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+/* ------------------------------------------------- Footer */
+a {
+    color: rgba(17, 35, 45, 0.488);
+    font-size: 2rem;
+}
+
+a:hover {
+    color: rgb(17, 35, 45);
 }
