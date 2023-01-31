@@ -136,6 +136,11 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
 }
 
 /* ------------------------------------------------- Footer */
+footer {
+    background-image: url(../images/b-img1.png);
+    background-size: cover;
+}
+
 a {
     color: rgba(17, 35, 45, 0.488);
     font-size: 2rem;
@@ -143,4 +148,14 @@ a {
 
 a:hover {
     color: rgb(17, 35, 45);
+}
+
+.box {
+    border-left: 2px solid rgb(207 221 234);
+    border-right: 2px solid rgb(207 221 234);
+    color: rgb(207 221 234);
+}
+
+.bg-color {
+    background-color: rgba(17, 35, 45, 0.488);
 }
