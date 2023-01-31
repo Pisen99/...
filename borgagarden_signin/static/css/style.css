@@ -6,7 +6,7 @@ font-family: 'Saira Semi Condensed', sans-serif;
 /* ------------------------------------------------- Body */
 body {
     font-family: 'Saira Semi Condensed', sans-serif;
-    background-color: rgb(188,202,214);
+    background-color: rgb(207 221 234);
 }
 
 /* ------------------------------------------------- Logo & menu */
@@ -102,8 +102,8 @@ h4 {
 
 /* ------------------------------------------------- Contact Section */
 section#contact {
-    background-image: url(../images/b-img.png);
-    background-size: cover;
+    background-image: none;
+    background-color: rgb(207 221 234);
 }
 
 .btn-primary.disabled {
@@ -143,9 +143,4 @@ a {
 
 a:hover {
     color: rgb(17, 35, 45);
-}
-
-.box {
-    border-left: 2px solid rgb(29,61,77);
-    border-right: 2px solid rgb(29,61,77);
 }
