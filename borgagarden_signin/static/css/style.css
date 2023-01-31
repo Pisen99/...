@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Saira+Semi+Condensed:wght@300&display=swap');
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Saira Semi Condensed', sans-serif;
+*/
+/* ------------------------------------------------- Body */
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: black; /* temporary */
+}
+
+/* ------------------------------------------------- Logo & menu */
+#mainNav .navbar-brand {
+    color: rgb(133,58,90);
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    letter-spacing: .5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(133,58,90);
+}
