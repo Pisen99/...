@@ -25,6 +25,18 @@ body {
     color: rgb(133,58,90);
 }
 
+/* Setting background-img for navbar */
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink {
+      background-image: url(../images/b-img.png);
+      background-size: cover;
+      border-bottom: 2px solid rgb(133,58,90);
+  }
+    #mainNav.navbar-shrink .navbar-brand {
+    color: #fff;
+  }
+}
+
 /* ------------------------------------------------- Hero Section */
 header.masthead {
     background-image: url(../images/hero.jpeg);
