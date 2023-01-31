@@ -42,3 +42,31 @@ header.masthead {
     background-image: url(../images/hero.jpeg);
     color: transparent;
 }
+
+/* ------------------------------------------------- Hero Buttons */
+.btn-primary {
+    color: rgb(133,58,90);
+    background-color: rgba(17, 35, 45, 0.421);
+    border: 2px solid rgb(133,58,90);
+}
+
+.btn-primary:hover {
+    color: rgb(133,58,90);
+    background-color: rgba(17, 35, 45);
+    border-color: rgb(133,58,90);
+    box-shadow: 0 0 20px 0 rgb(133,58,90);
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus {
+    color: rgb(133,58,90);
+    background-color: rgba(17, 35, 45);
+    border-color: rgb(133,58,90);
+    box-shadow: 0 0 20px 0 rgb(133,58,90);
+}
+
+.btn-primary:active {
+    color: rgb(133,58,90);
+    background-color: rgba(17, 35, 45);
+    border-color: rgb(133,58,90);
+}
